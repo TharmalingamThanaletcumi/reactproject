@@ -1,0 +1,18 @@
+/**/
+.detailperso {
+    margin: 0 5% 0 5%;
+}
+/**/
+.detailperso ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.ageMajeur{
+    color: green;
+}
+ul.ageVMajeur{
+    color:orange;
+}
+ul.ageMineur{
+    color: red;
+}
