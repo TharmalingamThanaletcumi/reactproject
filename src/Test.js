@@ -178,7 +178,6 @@ class TestLifeCycle extends React.Component{
     UNSAFE_componentWillMount(){
         console.log('Component will mount')
         setTimeout(()=> {this.setState({hello: "test Component will mount"})},1000)
-
     }
     componentDidMount(){
         console.log('Component did mount')
